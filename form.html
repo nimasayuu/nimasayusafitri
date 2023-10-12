@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tugas nimas formulir</title>
+</head>
+<body>
+
+    <h2>Buat Account Baru</h2>
+    <h4>Sign Up Form</h4>
+
+    <form action="welcome.html" method="post">
+        <label for="fname">First name :</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname"> Last name :</label><br>
+        <input type="text" id="lname" name="lname" value=""><br>
+
+        <form>
+        <label>Gender</label><br></br>
+        <input type="radio" id="male" name="fav_language" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="fav_language" value="Female">
+        <label for="female">Female</label><br><br>
+
+        <label for="negara">Nationality</label><br></br>
+        <select id="negara" name="negara">
+            <option value="Indonesia">Indonesia</option>
+            <option value="Amerika">Amerika</option>
+            <option value="Inggris">Inggris</option>
+        </select><br></br>
+
+        <label>Language Spoken</label><br></br>
+        <input type="checkbox" id="buatbox1" name="buatbox1" value="bahasa">
+        <label for="buatbox1">Bahasa Indonesia</label><br>
+        <input type="checkbox" id="buatbox2" name="buatbox2" value="bahasa">
+        <label for="buatbox2">English</label><br>
+        <input type="checkbox" id="buatbox3" name="buatbox3" value="bahasa">
+        <label for="buatbox3">Other</label><br></br>
+
+         <p>Bio</p>
+         <textarea name="massage" rows="10" cols="35"></textarea><br>
+         <input type="submit" value="Sign Up">
+        </form>    
+    </body>
+</html>
