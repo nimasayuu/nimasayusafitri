@@ -28,7 +28,7 @@
 
     <ol> 
         <li>Mengunjungi Website ini</li>
-        <li>Mendaftarkan di <a href="form.html">Form Sign Up</a></li>
+        <li>Mendaftarkan di <a href="form.php">Form Sign Up</a></li>
         <li>Selesai</li>
     </ol>
 
